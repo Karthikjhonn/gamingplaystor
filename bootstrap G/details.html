@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming World</title>
+     <!-- B-css style -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <!-- manual css -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Box-icons -->
+     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+<body class="bg-one">
+    <header >
+    <nav class="navbar navbar-expand-lg bg-one">
+        <div class="container ">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="navbar-brand" alt="Logo"></a>
+
+          <form class="d-flex" role="search">
+            <box-icon name="search" color="#ccc"  class="position-relative" style="right: -40px;top: 16px; background-color: transparent;"></box-icon>
+            <input class="form-control rounded-pill bg-two text-muted border-0 px-md-5 py-md-3" type="search" placeholder="Search" aria-label="Search">
+          </form>
+
+          <button class="navbar-toggler" style="border: 1px solid #e75e8d;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <box-icon name="menu" size="md" color="#e75e8d"></box-icon>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav navbar-expand-lg ms-auto text-center align-items-center">
+              <li class="nav-item pe-3"><a class="nav-link  " aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item pe-3"><a class="nav-link " href="browse.html">Browse</a></li>
+              <li class="nav-item pe-3 "><a class="nav-link active " href="details.html" >Details</a></li>
+              <li class="nav-item pe-3"><a class="nav-link  " href="streams.html">Streams</a></li>
+              <li class="nav-item pe-3"><a class="nav-link   background-hover bg-two  p-2 rounded-pill" href="profile.html">Profile <img src="img/profile-header.jpg" class="rounded-circle  d-inline-block"></a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </header>
+
+    <section id="browse" class="bg-two container-md my-2 p-md-5  pt-5">
+        <div class="container">
+            <div class="row bg-two" >
+                <div class="col-lg-4 bg-two  p-3"  >
+                    <img src="img/feature-left.jpg" class="w-100 h-100 overflow-hidden" style="border-radius: 23px;object-fit: cover;">
+                </div>
+                <div class="col-lg-8 bg-two  p-3 position-relative">
+                    <img src="img/feature-right.jpg" class="w-100 overflow-hidden" style="border-radius: 23px;"  >
+                    <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank" class="bg-transparent position-absolute" style="left: 50%;top: 50%; transform: translate(-50%,-50%);"><box-icon name='play-circle' color='#fff9f9' size="55px" class="bg-transparent"></box-icon></a>
+                </div>
+            </div>
+        </div>
+    <!-- fortnite deatils -->
+        <div class="container my-5" style="border-radius: 15px;">
+            <center class="bg-transparent"><h1 class="title p-3 my-2 bg-transparent">FORTNITE DETAILS</h1></center>
+            <div class="row px-2 gap-3">
+                <div class="col-lg-6  bg-two  p-md-2" style="border-radius: 15px;">
+                   <ul class="text-white list-unstyled d-flex justify-content-between align-items-center bg-two">
+                    <li class="bg-two"><b class="bg-two" >Fortnite</b></li>
+                    <li class="bg-two"><box-icon name="star" type="solid" color="yellow" class="bg-transparent"></box-icon> 4.8</li>
+                   </ul> 
+                   <ul class="text-white list-unstyled d-flex justify-content-between align-items-center bg-two">
+                    <li class="text-muted bg-two">Sandbox</li>
+                    <li class="bg-two"><box-icon name="download" type="solid" color="#e75e8d" class="bg-transparent"></box-icon> 2.3M</li>
+                   </ul>
+                </div>
+                <div class="col-lg-5  bg-two  p-md-2 m-auto" style="border-radius: 15px;">
+                    <ul class="text-white list-unstyled d-flex justify-content-between align-items-center bg-two py-md-3 px-md-5">
+                     <li class="bg-two"><box-icon name="star" type="solid" color="yellow" class="bg-transparent d-block mb-2 " ></box-icon> 4.8</li>
+                     <li class="bg-two"><box-icon name="download" animation='flashing' type="solid" color="#e75e8d" class="bg-transparent d-block mb-2 ms-1"></box-icon>2.3M</li>
+                     <li class="bg-two"><box-icon name="hdd" type="solid" color="#e75e8d" class="bg-transparent d-block mb-2 ms-1"></box-icon>36GB</li>
+                     <li class="bg-two"><box-icon name="joystick" type="solid" color="#e75e8d" class="bg-transparent d-block mb-2 ms-1"></box-icon>Action</li>
+                    </ul> 
+                 </div>
+            </div>
+
+            <div class="row" style="border-radius: 15px;" >
+                <div class="col-md-4 my-5">
+                    <img src="img/details-01.jpg" class="w-100" style="border-radius: 23px;">
+                </div>
+                <div class="col-md-4 my-5">
+                    <img src="img/details-02.jpg" class="w-100" style="border-radius: 23px;">
+                </div>
+                <div class="col-md-4 my-5">
+                    <img src="img/details-03.jpg" class="w-100" style="border-radius: 23px;">
+                </div>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda, obcaecati voluptate quam <span class="maincolor" >necessitatibus facilis illum eos veritatis consequatur quas enim </span> id suscipit similique minus et, placeat laboriosam adipisci labore sequi ipsum quod quasi. Sed autem assumenda unde cupiditate eveniet natus voluptatem sit, nihil explicabo in ad nulla nostrum beatae est quis laborum obcaecati. Odio, assumenda nulla eos quidem culpa quas, labore recusandae accusamus in, excepturi ab ex autem dolorem cum. Fugit eum delectus tenetur obcaecati officia cupiditate vel ipsum.</p>
+                <a href="#" class="btn btn-outline-maincolor rounded-pill my-5 p-3 " style="margin: auto;width: 95%;">Download Fortnite Now!</a>
+            </div>
+        </div>
+    <!-- Other related games -->
+    <div class="container my-5" style="border-radius: 15px;">
+     <div class="row my-5" style="border-radius: 15px;" >
+        <h1 class="title p-4 bg-transparent"><u>Other Related</u><span> Games</span></h1>
+        <div class="col-md-6 p-3">
+           <div class="text-white d-flex justify-content-start align-items-center">  
+            <img src="img/game-01.jpg" class="" style="border-radius: 15px;">
+            <div class="ps-2">
+            <h5 >Data 5</h5>
+            <span class="text-muted d-block">Sandbox</span>
+            </div>
+            <ul class="list-unstyled ms-auto">
+                <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+            </ul>
+           </div>
+           <hr class="bg-light rounded-3">
+        </div>
+
+        <div class="col-md-6 p-3">
+            <div class="text-white d-flex justify-content-start align-items-center">  
+             <img src="img/game-03.jpg" class="" style="border-radius: 15px;">
+             <div class="ps-2">
+             <h5 >Data 5</h5>
+             <span class="text-muted d-block">Sandbox</span>
+             </div>
+             <ul class="list-unstyled ms-auto">
+                 <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                 <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+             </ul>
+            </div>
+            <hr class="bg-light rounded-3">
+         </div>
+
+         <div class="col-md-6 p-3">
+            <div class="text-white d-flex justify-content-start align-items-center">  
+             <img src="img/game-02.jpg" class="" style="border-radius: 15px;">
+             <div class="ps-2">
+             <h5 >Data 5</h5>
+             <span class="text-muted d-block">Sandbox</span>
+             </div>
+             <ul class="list-unstyled ms-auto">
+                 <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                 <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+             </ul>
+            </div>
+            <hr class="bg-light rounded-3">
+         </div>
+
+         <div class="col-md-6 p-3">
+            <div class="text-white d-flex justify-content-start align-items-center">  
+             <img src="img/game-03.jpg" class="" style="border-radius: 15px;">
+             <div class="ps-2">
+             <h5 >Data 5</h5>
+             <span class="text-muted d-block">Sandbox</span>
+             </div>
+             <ul class="list-unstyled ms-auto">
+                 <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                 <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+             </ul>
+            </div>
+            <hr class="bg-light rounded-3">
+         </div>
+
+         <div class="col-md-6 p-3">
+            <div class="text-white d-flex justify-content-start align-items-center">  
+             <img src="img/game-02.jpg" class="" style="border-radius: 15px;">
+             <div class="ps-2">
+             <h5 >Data 5</h5>
+             <span class="text-muted d-block">Sandbox</span>
+             </div>
+             <ul class="list-unstyled ms-auto">
+                 <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                 <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+             </ul>
+            </div>
+            <hr class="bg-light rounded-3">
+         </div>
+
+         <div class="col-md-6 p-3">
+            <div class="text-white d-flex justify-content-start align-items-center">  
+             <img src="img/game-01.jpg" class="" style="border-radius: 15px;">
+             <div class="ps-2">
+             <h5 >Data 5</h5>
+             <span class="text-muted d-block">Sandbox</span>
+             </div>
+             <ul class="list-unstyled ms-auto">
+                 <li><box-icon name="star" type="solid" color="yellow" ></box-icon>  4.3</li>
+                 <li><box-icon name="download" type="solid" color="#e75e8d" animation="flashing"></box-icon>5.7M</li>  
+             </ul>
+            </div>
+            <hr class="bg-light rounded-3">
+         </div>
+         <hr class="my-3">
+     </div>
+    </div>
+    </section>
+    
+    <footer>
+    <center>
+        <p class="text-white my-5">Copyright © 2022 Cyborg Gaming Company. All rights reserved. <br>
+            Design: <span class="maincolor"> Karthii</span></p>
+    </center>
+   </footer>
+
+     <!-- js-script -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- navbar-sticky -Manual js-->
+     <script>
+        let header=document.querySelector("header");
+        console.log(header);
+        window.addEventListener("scroll",()=>{
+            header.classList.toggle("sticky",window.scrollY>500)
+        })
+     </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: var(--color1);
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --color1:#1f2122;
+    --color2:#27292a;
+    --maincolor:#e75e8d;
+    --whitecolor:#FFF;
+}
+body{
+    width: 100% !important;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 5252;
+    top: 0;
+    animation: navbar .1s ;
+}
+@keyframes navbar {
+    0%{opacity: 0;}
+    25%{opacity: .3;}
+    50%{opacity: .6;}
+    75%{opacity: .9;}
+    100%{opacity: 1;}   
+}
+box-icon{
+    position: relative;
+    top: 5px;
+}
+.bg-one{
+    background-color: var(--color1);
+}
+.bg-two{
+    background-color: var(--color2);
+}
+.maincolor,.active{
+    color: var(--maincolor) !important;
+}
+.maincolor:hover{
+    color: var(--whitecolor);
+}
+.nav-link{
+    color: #ccc;
+}
+.nav-link:hover{
+    color: var(--maincolor);
+}
+.btn-solid{
+    background-color: var(--maincolor);
+    color: var(--whitecolor);
+}
+.btn-solid:hover{
+    background-color: var(--whitecolor);
+    color: var(--maincolor);
+}
+.btn-outline-maincolor{
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+}
+.btn-outline-maincolor:hover{
+    color: var(--whitecolor);
+    background-color: var(--maincolor);
+}
+.background-hover:hover{
+    color: var(--whitecolor) !important;
+    background-color: var(--maincolor);
+}
+.sub-title{
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--whitecolor);
+}
+.title{
+    font-size: 2.5rem;
+    color: var(--whitecolor);
+    font-weight: 800;
+}
+.title span{
+    color: var(--maincolor);
+}
+section{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#img-content{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translateY(-50%);
+}
+
+/* broeser.html */
+.live{
+    opacity: 0 !important;
+}
+.card{
+    position: relative;
+}
+.card-hover:hover .card-overlay,.card-hover:hover .live{
+    opacity: 1 !important;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.card-overlay{
+    position:absolute;
+    top:150px;
+    left: 0%;
+    opacity: 0;
+    transition: all .3s ease; 
+}
+
+/* @media only screen and (max-width:576px)---mobile device
+@media only screen and (max-width:1100px)---normal Laptop */
+@media only screen and (max-width:792px){
+    
+     header nav .container form{
+        display: none !important;
+    }
+    .title{
+        font-size: 1.5rem;   
+    } 
+    .sub-title{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width:576px){
+    .card-overlay{
+        position:absolute;
+        top: 300px !important;
+    }
+   
+}
+@media only screen and (max-width:300px){
+    .navbar-brand{
+        width: 150px !important;
+    }
+
+}
